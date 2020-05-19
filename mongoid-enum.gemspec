@@ -6,8 +6,8 @@ require 'mongoid/enum/version'
 Gem::Specification.new do |spec|
   spec.name          = "mongoid-enum"
   spec.version       = Mongoid::Enum::VERSION
-  spec.authors       = ["Nicholas Bruning"]
-  spec.email         = ["nicholas@bruning.com.au"]
+  spec.authors       = ["Nicholas Bruning", "Sunderi"]
+  spec.email         = ["nicholas@bruning.com.au", "sunderi.pranata@gmail.com"]
   spec.description   = %q{Heavily inspired by DDH's ActiveRecord::Enum, this little library is there to help you cut down the cruft in your models and make the world a happier place at the same time.}
   spec.summary       = %q{Sweet enum sugar for your Mongoid documents}
   spec.homepage      = "https://github.com/thetron/mongoid-enum"
